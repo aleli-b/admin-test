@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.link-active{
+  color: red !important;
+  background-color: rgb(201, 68, 68) !important;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+ 
+body{
+  min-height: 100vh;
+}
+
+#main-header{
+  height: 60px;
+  background-color: red;
+}
+
+#main-footer{
+  height: 100px;
+  background-color: blue;
+}
+
+.main-container{
+  flex-grow: 1;
+}
